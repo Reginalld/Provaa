@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+    margin:auto;
+    font-family: 'inter';
+}
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+header{
+    position:relative;
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-color: #043873;
+    align-items: center;    
+
+}
+
+
+
+
+#logo{
+    position: relative;
+    width: 2%;
+    left: 8%;
+}
+
+#nomemp{
+    position: relative;
+    color: white;
+    left: 9%;
+    font-size:1vw;
+}
+
+#list{
+    display : flex;
+    list-style-type: none;
+    margin-left: 100px;
+    color:white;
+    justify-content: space-between;
+}
+
+
+#listaa{
+
+    position: relative;
+    left: 24%;
+    top:15%;
+    font-size: 1vw;
+}
+
+li{
+    margin-left: 20%;
+}
+
+#botaoheader{
+    position: relative;
+    justify-content: flex-end;
+    left: 44%;
+    background-color: #FFE492;
+    padding-top: 1.0% ;
+    padding-bottom: 1.0%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 8px;
+}
+
+#botaoheader2{
+    position: relative;
+    justify-content: flex-end;
+    left: 45%;
+    background-color: #4F9CF9;
+    padding-top: 1.0% ;
+    padding-bottom: 1.0%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    border-radius: 8px;
+}
+
+#button2{
+    color:white;
+}
+
+#setadi{
+
+    position: relative;
+    top: 3.5px;
+    width: 0.9vw;
+    color:white;
+  
+}
+#setabai1{
+
+
+    position: relative;
+    width: 0.7vw;
+    bottom:47%;
+    left:120%;
+
+
+}
+
+.home{
+
+    display: flex;
+    background-color: #043873;
+    height: 95vh;
+    width: 100vw;
+    background-image: url(imgs/listras.png);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center center;
+    left:20%;
+
+}
+
+#bloco1{
+
+    position: relative;
+    left:10%;
+    top:50%;
+
+}
+
+#txt1{
+
+    position: relative;
+    font-size: 3vw;
+    color: white;
+    bottom:8%;
+
+}
+
+#txt2{
+
+    position: relative;
+    font-size: 0.8vw;
+    color:white;
+    bottom: 5%;
+}
+
+
+
+#botaoheader3{
+    position: relative;
+    width: 9vw;
+    background-color: #4F9CF9;
+    padding-top: 2.5% ;
+    padding-bottom: 2.5%;
+    padding-left: 3.4%;
+    padding-right: 3.4%;
+    border-radius: 8px;
+    top:3%;
+}
+
+
+
+.work{
+
+    background-color: white;
+    height: 100vh;
+
+}
+
+
+#bloco2{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20%;
+ 
+
+}
+
+#dentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left:4%;
+}
+    
+
+#bolas{
+    display: flex;
+    justify-content: center;  
+    width: 30vw;
+
+}
+
+
+#botaoheader4{
+    display: flex;
+    position: relative;
+    width: 9vw;
+    background-color: #4F9CF9;
+    padding-top: 3.8% ;
+    padding-bottom: 3.8%;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+    border-radius: 8px;
+    top:12%;
+    justify-content: center;
+}
+
+#button3{
+   
+    color:white;
+
+}
+
+
+#txt3{
+    position: relative;
+    font-size: 3vw;
+    bottom: 5%;
+}
+
+
+
+footer{
+    display: flex;
+    height: 10vh;
+    background-color: #043873;
+    align-items: center;
+}
+
+#lista2{
+
+    display:flex;
+    font-size: 0.7vw;
+    
+}
+
+#lista22{
+    
+    display : flex;
+    list-style-type: none;
+    margin-left: 70px;
+    color:white;
+    justify-content: space-between;
+
+}
+
+#facee{
+    position: relative;
+    width: 0.6vw;
+    left: 49%;
+}
+#twiter{
+    position: relative;
+    width: 1vw;
+    left: 50.5%;
+}
+#link{
+    
+    position: relative;
+    width: 1vw;
+    left: 52%;
+}
+
+
+@media screen and (max-width: 768px){
+
+
+
+    #listaa{
+        display: none;
+    }
+
+    #botaoheader{
+        display:none;
+    }
+
+    #botaoheader2{
+        display:none;
+    }
+
+    #logo{
+        position: relative;
+        width: 6%;
+        left: 8%;
+    }
+
+
+    #bloco2{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        position: relative;
+        top:25%;
+     
+    
+    }
+
+    #dentro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    
+        
+    }
+
+    #txt3{
+        position: relative;
+        font-size: 5vw;
+        bottom: 1%;
+    }
+
+    #botaoheader4{
+        display: flex;
+        position: relative;
+        width: 9vw;
+        background-color: #4F9CF9;
+        padding-top: 2.8% ;
+        padding-bottom: 2.8%;
+        padding-left: 6.8%;
+        padding-right: 6.8%;
+        border-radius: 8px;
+        top:12%;
+        justify-content: center;
+    }
+
+
+
+    #button3{
+    
+        display: flex;
+        color:white;
+        justify-content: center;
+
+    }
+
+  
+}
